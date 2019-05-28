@@ -1,0 +1,73 @@
+.course-list{
+    max-width:1200px;
+    margin:20px auto 0;
+    padding: 0 20px;
+}
+
+.course-list article{
+    width:30%;
+    min-height: 200px;
+    margin: 10px;
+    float:left;
+    background: -webkit-linear-gradient(rgb(25,19,31), rgb(33,26,41), rgb(25,19,31));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(25,19,31), rgb(33,26,41), rgb(25,19,31)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    border-radius:5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.course-list article p{
+    font-size:16px;
+    color: #fafafa;
+    margin-top:5px;
+    line-height: 24px;   
+}
+
+
+.course-list article a{
+    font-size:40px;
+    height: 42px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a8c0ff;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: all 0.2s;
+}
+
+.course-list article a:hover{
+    color:#fff;
+}
+
+.course-list .actions{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.course-list .actions button {
+    padding: 10px;
+    border-radius: 5px;
+    border:0;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.2s;
+    cursor: pointer;
+    align-items: flex-end;
+}
+
+.course-list .actions button:hover {
+    opacity: 0.7;
+}
+
+.course-list .actions button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}

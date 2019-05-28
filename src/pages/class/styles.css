@@ -1,0 +1,37 @@
+.class-info{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 20px;
+    background: -webkit-linear-gradient(rgb(25,19,31), rgb(33,26,41), rgb(25,19,31));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(25,19,31), rgb(33,26,41), rgb(25,19,31)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    border-radius:5px;
+    transition: 0.5s;
+}
+.dataaula{
+    font-size: 12px;
+    float:right;
+    color: #fafafa;
+
+}
+.class-info:hover{
+  box-shadow: 1px 1px rgb(165, 164, 164)
+}
+
+.class-info h1{
+    color: #fafafa;
+    font-size: 32px;
+}
+
+.class-info p{
+    color: #fafafa;
+    line-height: 24px;
+    margin-top: 5px;
+}
+
+.class-info a{
+    color: #069;
+    transition: 0.2s;
+}
+.class-info a:hover{
+    opacity: 0.5;
+}
