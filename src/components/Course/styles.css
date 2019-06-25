@@ -1,0 +1,84 @@
+.curses{
+    margin:20px 0 20px 0;
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    font-family: Marker Felt, fantasy;
+
+}
+.course-title{
+    margin-top:20px;
+    font-size:3em;
+    display:flex;
+    justify-content: center; 
+    align-items: left;
+    width: 50%;
+    font-family: Marker Felt, fantasy;
+
+}
+
+.course-list{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:70%;
+}
+
+.course-list article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:150px;
+    height: 150px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 2px 2px 2px #CCC;
+    transition: .3s;
+   
+}
+
+.course-list article a{
+    font-size:40px;
+    height: 42px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black; 
+    font-weight: bold;
+
+}
+
+.course-list article:hover{
+    box-shadow: 4px 4px 4px #CCC;
+}
+
+.course-list .actions{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.course-list .actions button {
+    padding: 10px;
+    border-radius: 5px;
+    border:0;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.2s;
+    cursor: pointer;
+    align-items: flex-end;
+}
+
+.course-list .actions button:hover {
+    opacity: 0.7;
+}
+
+.course-list .actions button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}

@@ -1,12 +1,60 @@
 header#main-header{
     height:100px;
     width: 100%;
-    background: rgb(17,12,23);
+    background: rgb(8, 12, 22);
     font-size: 18px;
     border-bottom: 2px solid rgb(33,26,41);
     font-weight: bold;
     color:#FFF;
     display:flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
+    z-index:10;
+    position:fixed;
+    top: 0;
+    margin:0;
+}
+
+header menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+    margin:0;
+    padding:0;
+}
+
+header menu span{
+    display: flex;
+    
+    background-image: url(../../public/logo01.png);
+    width:135px;
+    height: 100px;
+}
+header menu p{
+    font-family: Marker Felt, fantasy;
+    font-size:40px;
+}
+
+header menu nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items:stretch;
+    margin-left:10px;
+    flex-grow: 2;    
+}
+header menu nav a{
+    font-size: 20px;
+    margin-right:40px;
+    width:120px!important;
+    color:#FFF;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    font-family: Marker Felt, fantasy;
+    font-size:20px;
+    transition: 1.5s;
+}
+header menu nav a:hover{
+    text-transform: uppercase;
 }

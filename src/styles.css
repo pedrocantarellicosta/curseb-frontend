@@ -7,8 +7,12 @@
 
 body{
     font-family: Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
-    background: rgb(15, 11, 21);
-    color:#333;
+	background-color: #F2F5F7;
+
+    display: flex;
+    flex-direction: column;
+        
+    
 }
 
 .btnvoltar{
