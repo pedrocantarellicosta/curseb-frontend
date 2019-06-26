@@ -34,7 +34,7 @@ export default class Class extends Component{
 
     subscribeToNewClass = () => {
         const aula = this.props.match.params.id;
-        const io = socket("http://localhost:3333");
+        const io = socket("https://courseb-backend.herokuapp.com");
     
     
         io.emit("connectRoom", aula);
@@ -62,7 +62,7 @@ export default class Class extends Component{
                         <div className="class-info" key={aula._id}>
                             <article>
                                 <div className="class-left">
-                                        <iframe width="460" height="258" src={aula.link} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+                                        <iframe width="460" height="258" src={aula.link} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>      
                                 </div>
                                 <div className="class-right">
                                     <div className="dataaula">

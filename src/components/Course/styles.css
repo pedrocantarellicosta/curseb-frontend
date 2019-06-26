@@ -20,8 +20,7 @@
 
 .course-list{
     display:flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
     width:70%;
 }
 
@@ -35,6 +34,7 @@
     background: #FFF;
     box-shadow: 2px 2px 2px #CCC;
     transition: .3s;
+    margin-left: 2%;
    
 }
 
